@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "koa": "node server.js",
+    "start": "NODE_ENV=production node server.js",
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build"
   },
   "author": "Cheft",
   "license": "ISC",
   "dependencies": {
+    "koa": "^2.2.0",
+    "koa-router": "^7.2.0",
     "next": "^3.0.0-beta9",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
